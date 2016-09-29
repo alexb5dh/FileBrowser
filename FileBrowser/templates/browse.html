@@ -1,0 +1,20 @@
+﻿<div class="block" ng-include="'/templates/statistics.html'"></div>
+
+<p id="path">
+    <span title="{{:: path | backslash }}">
+        <b>Current path:</b> {{:: path | backslash }}
+    </span>
+</p>
+
+<div id="content" class="block">
+    <p ng-repeat="folder in folders">
+        <a class="folder" ng-href="#{{:: folder.path | lowercase }}" title="{{:: folder.name}}">
+            <span>{{:: folder.name }}</span>
+        </a>
+    </p>
+    <p ng-repeat="file in files">
+        <a class="file" ng-href="{{::getDownloadUrl(file)}}" title="{{:: file.name}}">
+            <span>{{:: file.name }}</span>
+        </a>
+    </p>
+</div>

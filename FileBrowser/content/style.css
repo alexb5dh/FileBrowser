@@ -1,0 +1,99 @@
+﻿.block { margin: 25px; }
+
+p { margin: 5px; }
+
+span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 575px;
+}
+
+table {
+    width: 100%;
+    box-shadow: 0 1px 3px #000000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: table;
+}
+
+th {
+    font-weight: bold;
+    color: #ffffff;
+    background: #2980b9;
+    padding: 5px;
+    text-align: center;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+img.loading {
+    display: block;
+    margin: auto;
+}
+
+#content {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.03);
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    overflow: auto;
+    height: 400px;
+}
+
+#statistics {
+    height: 100px;
+    width: 600px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#path {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.file {
+    background: url(file.png) no-repeat;
+    padding-left: 24px;
+    display: block;
+    height: 20px;
+    padding-top: 2px;
+}
+
+.folder {
+    background: url(folder.png) no-repeat;
+    padding-left: 24px;
+    display: block;
+    height: 20px;
+    padding-top: 2px;
+}
+
+.error {
+    background: url(cross.png) no-repeat;
+    padding-left: 20px;
+    display: block;
+    height: 20px;
+    padding-top: 3px;
+    color: red;
+}
+
+.loading {
+    background: url(loading.gif) no-repeat;
+    padding-left: 25px;
+    display: block;
+    height: 20px;
+    padding-top: 2px;
+    color: blue;
+}

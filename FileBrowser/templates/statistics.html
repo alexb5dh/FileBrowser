@@ -1,0 +1,29 @@
+﻿<div ng-controller="StatisticsController" id="statistics">
+    <p ng-show="statistics.$loading" class="loading">
+        Loading statistics...
+    </p>
+
+    <div ng-show="statistics.$success">
+        <table>
+            <thead>
+            <tr>
+                <th ng-repeat="(key, value) in statistics">{{key}}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td ng-repeat="(key, value) in statistics">
+                    {{value}}
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <p>
+            <sup>*Some files may be skipped due to System.IO limitations or insuffisient access rights.</sup>
+        </p>
+    </div>
+
+    <p ng-show="statistics.$error" class="error">
+        Failed to load statistics.
+    </p>
+</div>

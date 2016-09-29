@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "scripts/fileBrowser.js",
+    "inputFiles": [
+        "scripts/fileBrowser/**/[_]*.js",
+        "scripts/fileBrowser/**/[!_]*.js"
+    ]
+  }
+]
