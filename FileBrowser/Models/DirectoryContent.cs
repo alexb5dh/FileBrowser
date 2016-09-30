@@ -4,7 +4,7 @@ namespace FileBrowser.Models
 {
     public class DirectoryContent
     {
-        public IEnumerable<FileSystemLink> Folders { get; set; }
+        public IEnumerable<FolderLink> Folders { get; set; }
 
         public IEnumerable<FileSystemLink> Files { get; set; }
     }
