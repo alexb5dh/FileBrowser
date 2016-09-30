@@ -25,13 +25,13 @@ Returns list of files and folders in the directory specified by `path`.
 
 ```json
 {
-    folders: {
-        name: "",
-        path: ""
-    }
-    files: {
-        name: "",
-        path: ""
+    "folders": {
+        "name": "",
+        "path": ""
+    },
+    "files": {
+        "name": "",
+        "path": ""
     }
 }
 ```
