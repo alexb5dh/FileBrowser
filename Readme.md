@@ -7,9 +7,8 @@
 
 # Routing
 ![image](https://cloud.githubusercontent.com/assets/4650832/18976403/46d7c52a-86ba-11e6-850b-123fb1031ba2.png)  
-Site uses AngularJS routing for file system browsing.  
-It allows easily integrate directory path with browser history functionality (back, forward, reload) and to keep track of current location in address bar.  
-"Hashbang" is used to handle full Windows pathes with drive names.
+Site uses AngularJS routing for file system browsing. It greatly simplifies integration with browser history functionality (back, forward, reload) and allows to keep track of current location in address bar.
+It also allows to save/copy direct link with current path. "Hashbang" is used to handle full Windows pathes with drive names.
 
 Directory content is preloaded in route resolving stage to make sure directory is accessible and prevent navigation in case of failure.
 
