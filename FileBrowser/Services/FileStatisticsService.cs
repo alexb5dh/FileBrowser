@@ -36,9 +36,9 @@ namespace FileBrowser.Services
 
         private readonly FileBySizeCounter[] _bySizeCounters = new []
         {
-            new FileBySizeCounter("<= 10MB", 0, 10 * 1024 * 1024),
+            new FileBySizeCounter("≤10MB", 0, 10 * 1024 * 1024),
             new FileBySizeCounter("10MB - 50MB", 10 * 1024 * 1024 + 1, 50 * 1024 * 1024),
-            new FileBySizeCounter(">= 100MB", 100 * 1024 * 1024, long.MaxValue)
+            new FileBySizeCounter("≥100MB", 100 * 1024 * 1024, long.MaxValue)
         };
 
         private readonly IFileSystemService _fileSystemService;
