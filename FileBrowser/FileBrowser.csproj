@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\style.css" />
+    <Content Include="favicon.ico" />
     <Content Include="scripts\fileBrowser.js" />
     <Content Include="scripts\fileBrowser.min.js">
       <DependentUpon>fileBrowser.js</DependentUpon>
